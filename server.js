@@ -44,9 +44,10 @@ if (name.endsWith(".php") == true){
   else{
   sampleFile.mv(__dirname + '/uploads/' + name , function(err) {
     if (err)
-      res.send("The Server is Overloaded");
+      res.send("server err");
+     
 
-    res.send('Thank You For the Contribution :)');
+    res.send('uploaded :)');
   });
 }
 });
