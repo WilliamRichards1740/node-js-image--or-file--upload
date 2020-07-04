@@ -38,6 +38,10 @@ if (name.endsWith(".php") == true){
 
   res.send("Dont You know Node js cant process PHP you silly goose :)");
 }
+   if (name.endsWith(".js") == true){
+
+  res.send("Dont Upload JS files :)");
+}
 
 
   
